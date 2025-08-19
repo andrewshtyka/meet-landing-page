@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize & styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- title -->
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="o-header">
+      <svg height="28" width="118">
+        <use href="./assets/icons.svg#logo" />
+      </svg>
+    </header>
+
+    <main class="o-page_grid">
+      <!-- HERO -->
+      <section class="o-section_flex u-overflow:hidden">
+        <img
+          class="o-hero_image:tablet"
+          src="./assets/tablet/image-hero.png"
+          srcset=""
+          alt="Faces of people"
+          width="820"
+          height="303"
+        />
+
+        <article class="o-section_title">
+          <h1 class="c-text-preset-1 u-font_width:10">Group Chat for Everyone</h1>
+          <p class="c-text-preset-4 u-font_color:gray-600 u-font_width:40">
+            Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+          </p>
+          <article class="o-hero_buttons">
+            <button class="c-button_primary c-text-preset-5" type="button">
+              Download<span class="u-font_color:cyan-300 u-ml:0.25">v1.3</span>
+            </button>
+            <button class="c-button_secondary c-text-preset-5" type="button">What is it?</button>
+          </article>
+        </article>
+      </section>
+
+      <!-- DETAILS -->
+      <section class="o-section_flex">
+        <div class="c-divider">
+          <div class="c-line"></div>
+          <div class="c-number c-text-preset-5 u-font_color:gray-600">01</div>
+        </div>
+
+        <ul class="o-grid_images">
+          <li class="o-image_item">
+            <img
+              class="o-image:squares"
+              src="./assets/desktop/image-woman-in-videocall.jpg"
+              alt="Woman in videocall"
+              height=""
+            />
+          </li>
+          <li class="o-image_item">
+            <img
+              class="o-image:squares"
+              src="./assets/desktop/image-women-videochatting.jpg"
+              alt="Women videochatting"
+              height=""
+            />
+          </li>
+          <li class="o-image_item">
+            <img
+              class="o-image:squares"
+              src="./assets/desktop/image-men-in-meeting.jpg"
+              alt="Men in meeting"
+              height=""
+            />
+          </li>
+          <li class="o-image_item">
+            <img class="o-image:squares" src="./assets/desktop/image-man-texting.jpg" alt="Man texting" height="" />
+          </li>
+        </ul>
+
+        <article class="o-section_title">
+          <div class="o-details_title">
+            <h3 class="c-text-preset-3 u-font_color:cyan-600">Built for modern use</h3>
+            <h2 class="c-text-preset-2 u-font_width:20">Smarter meetings, all in one place</h2>
+          </div>
+          <p class="c-text-preset-4 u-font_color:gray-600 u-font_width:0">
+            Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who
+            can join with invite-only team access, data encryption, and data export.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="o-footer">
+      <article class="o-footer_title">
+        <h2 class="c-text-preset-2 u-font_width:20 u-font_color:white">Experience more together</h2>
+        <p class="c-text-preset-4 u-font_color:gray-600 u-font_width:40 u-font_color:white">
+          Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+        </p>
+        <button class="c-button_secondary c-text-preset-5" type="button">
+          What is it?<span class="u-font_color:purple-300 u-ml:0.25">v1.3</span>
+        </button>
+      </article>
+
+      <div class="c-divider">
+        <div class="c-line"></div>
+        <div class="c-number c-text-preset-5 u-font_color:gray-600">02</div>
+      </div>
+    </footer>
+  </body>
+</html>
