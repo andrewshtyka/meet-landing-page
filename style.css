@@ -217,7 +217,7 @@ table {
   position: relative;
 
   background-image: linear-gradient(var(--color-cyan-transparent), var(--color-cyan-transparent)),
-    url(./assets/mobile/image-footer.jpg);
+    url(./assets/mobile/image-footer.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -411,7 +411,7 @@ table {
 
   .c-footer {
     background-image: linear-gradient(var(--color-cyan-transparent), var(--color-cyan-transparent)),
-      url(./assets/tablet/image-footer.jpg);
+      url(./assets/tablet/image-footer.webp);
   }
 
   .o-grid_images {
@@ -542,7 +542,7 @@ table {
 
   .c-footer {
     background-image: linear-gradient(var(--color-cyan-transparent), var(--color-cyan-transparent)),
-      url(./assets/desktop/image-footer.jpg);
+      url(./assets/desktop/image-footer.webp);
   }
 
   .c-divider:last-child {
