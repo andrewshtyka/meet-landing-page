@@ -482,6 +482,10 @@ table {
     max-width: 45ch;
   }
 
+  .o-section_title {
+    gap: 2rem;
+  }
+
   .o-hero_image\:tablet {
     display: none;
   }
