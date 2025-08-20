@@ -275,11 +275,6 @@ table {
   transition: background-color 150ms ease-in-out;
 }
 
-.c-button_primary:hover,
-.c-button_primary:focus {
-  background-color: var(--color-cyan-400);
-}
-
 .c-button_secondary {
   cursor: pointer;
   background-color: var(--color-purple-600);
@@ -290,11 +285,6 @@ table {
   text-wrap: nowrap;
 
   transition: background-color 150ms ease-in-out;
-}
-
-.c-button_secondary:hover,
-.c-button_secondary:focus {
-  background-color: var(--color-purple-400);
 }
 
 .c-line {
@@ -555,6 +545,16 @@ table {
   .c-divider:last-child {
     position: absolute;
     bottom: 91%;
+  }
+
+  .c-button_primary:hover,
+  .c-button_primary:focus {
+    background-color: var(--color-cyan-400);
+  }
+
+  .c-button_secondary:hover,
+  .c-button_secondary:focus {
+    background-color: var(--color-purple-400);
   }
 }
 
