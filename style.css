@@ -458,6 +458,10 @@ table {
 /* #region = DESKTOP */
 
 @media (min-width: 1200px) {
+  .o-header {
+    padding-top: 5rem;
+  }
+
   .c-text-preset-1 {
     font-size: 4rem;
   }
